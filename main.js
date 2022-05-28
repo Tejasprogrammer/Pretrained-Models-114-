@@ -39,7 +39,7 @@ function gotposes(results)
     if(results.length>0)
     {
         console.log(results);
-        nosex=results[0].pose.nose.x;
+        nosex=results[0].pose.nose.x-22;
        nosey=results[0].pose.nose.y;
     }
 }
